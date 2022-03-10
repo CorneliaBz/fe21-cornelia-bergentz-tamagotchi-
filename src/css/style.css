@@ -1,0 +1,55 @@
+body{
+    background: rgb(247, 239, 232);
+}
+
+section {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10rem 50rem;
+}
+
+#tamaDiv {
+    background: radial-gradient(circle, rgba(255,192,203,1) 48%, rgba(228,170,180,1) 100%);
+    border: solid #e4aab4 2px;
+    width: 20rem;
+    height: 25rem;
+    border-radius: 50%;
+}
+
+#tamaInfo{
+    padding-top: 15px;
+    border: solid transparent 15px;
+    border-radius: 10%;
+}
+
+h4 {
+    display: inline-block;
+    margin: 0px 20px;
+    color: white;
+}
+
+p{
+    display: inline-block;
+    margin: 0px 50px;
+}
+
+img {
+    width: 10rem;
+    border: solid white 15px;
+    border-radius: 25%;
+}
+
+button {
+    border: solid #e4aab4;
+    background-color: rgb(143, 229, 250);
+    margin: 0px 45px;
+    padding: 15px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+}
+
+button:active {
+    background: rgb(115, 205, 228);
+}
+
